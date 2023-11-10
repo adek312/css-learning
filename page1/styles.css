@@ -5,3 +5,26 @@ body {
     display: flex;
     flex-direction: column;
   }
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+.header{
+  background-color: #1f2937;
+  color: #FFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.right-links{
+  display: flex;
+  gap: 20px;
+}
