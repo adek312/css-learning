@@ -1,10 +1,9 @@
 body {
     min-height: 100vh;
     overflow: hidden;
-    background-color: #1f2937;
   }
 
-img{
+.right{
   width: 500px;
   height: 200px;
 }
@@ -18,11 +17,11 @@ a{
   color: #FFF;
 }
 
-.container{
+.container1{
   display: flex;
   flex-flow: column wrap;
   align-content: center;
-
+  background-color: #1f2937;
 }
 
 .up{
@@ -54,6 +53,7 @@ a{
   justify-content: space-between;
   align-items: center;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .right{
@@ -84,4 +84,36 @@ button{
   height: 35px;
   font-size: 16px;
   font-weight: 900;
+}
+
+.container2{
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+}
+
+.middle{
+  background-color: #FFF;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 50px;
+}
+
+.information-header{
+  display: flex;
+  justify-content: center;
+}
+
+.section{
+  margin-top: 100px;
+  display: flex;
+  gap: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.info{
+  width: 150px;
 }
