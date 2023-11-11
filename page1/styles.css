@@ -2,7 +2,6 @@ body {
     min-height: 100vh;
     overflow: hidden;
     background-color: #1f2937;
-    
   }
 
 img{
@@ -47,6 +46,7 @@ a{
 
 .right-links{
   display: flex;
+  gap: 20px;
 }
 
 .middle-up{
@@ -73,4 +73,15 @@ a{
   font-size: 18px;
   color: #E5E7EB;
   width: 400px;
+}
+
+button{
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 5px;
+  border: solid #3882F6 3px;
+  width: 120px;
+  height: 35px;
+  font-size: 16px;
+  font-weight: 900;
 }
