@@ -72,6 +72,7 @@ a{
   font-size: 18px;
   color: #E5E7EB;
   width: 400px;
+  margin-bottom: 10px;
 }
 
 button{
@@ -117,8 +118,9 @@ button{
 
 .borderline{
   border: #3882F6 solid 4px;
-  height: 150px;
-  border-radius: 5px;
+  height: 125px;
+  border-radius: 10px;
+  margin-bottom: 5px;
 }
 
 .info{
