@@ -1,6 +1,5 @@
 body {
     min-height: 100vh;
-    overflow: hidden;
   }
 
 .right{
@@ -151,4 +150,38 @@ button{
 .subquote{
   font-weight: 700;
   font-size: 20px;
+}
+
+.container4{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 100px;
+}
+
+.down{
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 25px;
+  width: 1000px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.up-text, .down-text{
+  margin-left: 75px;
+}
+
+.up-text{
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.right-down{
+  margin-right: 100px;
+  border: #F9FAF8 solid 2px;
+  border-radius: 5px;
 }
