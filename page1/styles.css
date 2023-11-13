@@ -102,10 +102,13 @@ button{
 .information-header{
   display: flex;
   justify-content: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
 }
 
 .section{
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   gap: 50px;
   text-align: center;
@@ -113,6 +116,11 @@ button{
   justify-content: center;
 }
 
+.borderline{
+  border: #3882F6 solid 4px;
+  height: 150px;
+  border-radius: 5px;
+}
 
 .info{
   width: 150px;
